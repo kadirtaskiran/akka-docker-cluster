@@ -1,0 +1,57 @@
+[0m[[0mdebug[0m] [0mExecuting docker build --force-rm -t akka-docker-cluster:2.3.4 .[0m
+[0m[[0mdebug[0m] [0mWorking directory /Users/kadirtaskiran/akka-docker-cluster/target/docker[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 557.1 kB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 1.114 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 1.671 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 2.228 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 2.785 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 3.342 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 3.899 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 4.456 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 5.014 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 5.571 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 6.128 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 6.685 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 7.242 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 7.799 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 8.356 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 8.913 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon  9.47 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 10.03 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 10.58 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 11.14 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon  11.7 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 12.26 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon 12.64 MB[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon [0m
+[0m[[0minfo[0m] [0mStep 0 : FROM dockerfile/java[0m
+[0m[[0minfo[0m] [0m ---> bb896d91f66d[0m
+[0m[[0minfo[0m] [0mStep 1 : MAINTAINER Nepomuk Seiler[0m
+[0m[[0minfo[0m] [0m ---> Running in 27dc3f032ba4[0m
+[0m[[0minfo[0m] [0m ---> 395eac62d438[0m
+[0m[[0minfo[0m] [0mRemoving intermediate container 27dc3f032ba4[0m
+[0m[[0minfo[0m] [0mStep 2 : ADD files /[0m
+[0m[[0minfo[0m] [0m ---> 5de63906e51c[0m
+[0m[[0minfo[0m] [0mRemoving intermediate container 9d49e94be001[0m
+[0m[[0minfo[0m] [0mStep 3 : WORKDIR /opt/docker[0m
+[0m[[0minfo[0m] [0m ---> Running in 1a0c2a71597c[0m
+[0m[[0minfo[0m] [0m ---> 8be3e15b6ad4[0m
+[0m[[0minfo[0m] [0mRemoving intermediate container 1a0c2a71597c[0m
+[0m[[0minfo[0m] [0mStep 4 : RUN chown -R daemon .[0m
+[0m[[0minfo[0m] [0m ---> Running in 4136c3cc47af[0m
+[0m[[0minfo[0m] [0m ---> c34300c24347[0m
+[0m[[0minfo[0m] [0mRemoving intermediate container 4136c3cc47af[0m
+[0m[[0minfo[0m] [0mStep 5 : USER daemon[0m
+[0m[[0minfo[0m] [0m ---> Running in 7595313b9c5e[0m
+[0m[[0minfo[0m] [0m ---> 5b28414e2406[0m
+[0m[[0minfo[0m] [0mRemoving intermediate container 7595313b9c5e[0m
+[0m[[0minfo[0m] [0mStep 6 : ENTRYPOINT bin/akka-docker-cluster[0m
+[0m[[0minfo[0m] [0m ---> Running in 19f856980c1d[0m
+[0m[[0minfo[0m] [0m ---> 1d0fb38ea465[0m
+[0m[[0minfo[0m] [0mRemoving intermediate container 19f856980c1d[0m
+[0m[[0minfo[0m] [0mStep 7 : CMD [0m
+[0m[[0minfo[0m] [0m ---> Running in a4bd80ef8c9f[0m
+[0m[[0minfo[0m] [0m ---> 2e7e8263719e[0m
+[0m[[0minfo[0m] [0mRemoving intermediate container a4bd80ef8c9f[0m
+[0m[[0minfo[0m] [0mSuccessfully built 2e7e8263719e[0m
+[0m[[0minfo[0m] [0mBuilt image akka-docker-cluster:2.3.4[0m

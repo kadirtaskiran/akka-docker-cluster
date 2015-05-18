@@ -1,0 +1,4 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/Users/kadirtaskiran/akka-docker-cluster/src/main/resources/application.conf,/Users/kadirtaskiran/akka-docker-cluster/target/scala-2.11/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/Users/kadirtaskiran/akka-docker-cluster/src/main/resources/node.cluster.conf,/Users/kadirtaskiran/akka-docker-cluster/target/scala-2.11/classes/node.cluster.conf)[0m
+[0m[[0mdebug[0m] [0m	(/Users/kadirtaskiran/akka-docker-cluster/src/main/resources/node.seed.conf,/Users/kadirtaskiran/akka-docker-cluster/target/scala-2.11/classes/node.seed.conf)[0m
